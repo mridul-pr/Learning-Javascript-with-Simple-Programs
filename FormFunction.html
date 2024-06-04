@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Javascript</title>
+        <script lang="javascript" type="text/javascript"> 
+            function sayhello(name, age){
+                if(name=="" || age ==""){
+                    return;
+                }
+                document.write(" Hello " + name + " Your Age is " + age);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input name="t1" placeholder="Enter Name"></br>
+            <input name="t2" placeholder="Enter Age" /></br>
+            <input type="button" onclick="sayhello(t1.value,t2.value)" value="sayHello"></input>
+        </form>
+    </body>
+</html>

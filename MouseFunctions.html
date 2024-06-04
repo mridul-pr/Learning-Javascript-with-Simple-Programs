@@ -1,0 +1,21 @@
+<html>
+    <head>
+    <title>Mouse Function</title>
+    <script lang="Javascript" type="text/Javascript">
+        function MouseOver(){
+            document.images["img1"].src = "javascript red.jpeg"
+        }
+        function MouseOut(){
+            document.images["img1"].src = "javascript green.webp"
+        }
+        function Load(){
+            document.images["img1"].src = "javascript red.jpeg"
+        }
+    </script>
+    </head>
+
+    <body onload="Load()">
+        <img name = "img1" onmouseover="MouseOver()" onmouseout="MouseOut()" width="300px" height="300px"/>
+    </body>
+
+</html>
